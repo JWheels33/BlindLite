@@ -18,7 +18,12 @@ body{
 }
 
 .header{
-    padding: 0% 20% ;
+    padding: 0% 10%;
+}
+
+.header img {
+    width: 100%;
+    vertical-align: middle;
 }
 
 .button-set{
