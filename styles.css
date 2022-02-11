@@ -1,0 +1,85 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 226, 216);
+}
+
+.center-col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 97vh;
+
+}
+
+.header-text{
+    padding: 0% 20% ;
+}
+
+.button-set{
+    flex: 1 ;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.button-comment{
+    padding-top: 4vh;
+    font-size: 5vmin;
+}
+
+.button-pair-container{
+    flex: 1;
+
+    display: flex;
+    column-gap: 1%;    
+    padding: 1% 4%;
+}
+
+.button-pair-container div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vmin;
+}
+
+.left-button{
+    flex: 1;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.right-button{
+    flex: 1;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.center-col .footer{
+    padding-top: 5%;
+    font-size: 3vmin;
+}
+
+.button-pair1{
+    background-color: #cfcdcd
+}
+
+.button-pair2{
+    background-color: #818181;
+}
+
+.button-pair3{
+    background-color: #ce4444;
+    color: rgb(242, 245, 247);
+}
+
+.button-all{
+    background-color: #3b3b3b;
+    color: rgb(242, 245, 247);;
+}
