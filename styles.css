@@ -52,6 +52,13 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 6vmin;
+    /* Add in the button appearance */
+    box-shadow: 0 10px #999;
+}
+
+.button-pair-container div:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
 }
 
 .left-button{
@@ -86,5 +93,5 @@ body{
 
 .button-all{
     background-color: #3b3b3b;
-    color: rgb(242, 245, 247);;
+    color: rgb(242, 245, 247);
 }
