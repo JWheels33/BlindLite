@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(226, 226, 216);
+    background-color: rgb(235, 235, 226);
 }
 
 .center-col{
@@ -36,9 +36,11 @@ body{
 .button-comment{
     padding-top: 4vh;
     font-size: 5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
-.button-pair-container{
+.button-container{
     flex: 1;
 
     display: flex;
@@ -46,8 +48,7 @@ body{
     padding: 1% 4%;
 }
 
-.button-pair-container div{
-    
+.button-container > div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +57,8 @@ body{
     box-shadow: 0 10px #999;
 }
 
-.button-pair-container div:active{
+.button-container > div.pressed{
+    filter: brightness(135%);
     box-shadow: 0 5px #666;
     transform: translateY(5px);
 }
@@ -83,11 +85,11 @@ body{
 }
 
 .button-pair2{
-    background-color: #818181;
+    background-color: #727272;
 }
 
 .button-pair3{
-    background-color: #ce4444;
+    background-color: #d82f2f;
     color: rgb(242, 245, 247);
 }
 
