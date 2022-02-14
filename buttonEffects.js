@@ -1,6 +1,9 @@
 $(document).ready( function(){
     //Set the height to the inner height
-    $(".center-col").height(window.innerHeight * 0.98);
+    // $(".center-col").height(window.innerHeight * 0.98);
+    $("window").resize(function() {
+        document.documentElement.style.setProperty('--app-height', '${window.innerHeight}px');
+    });
 
     // Listen to all the buttons for the press event
     $(".button-container > div").not(".button-all").click(function() {
