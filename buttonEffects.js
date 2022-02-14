@@ -1,4 +1,7 @@
 $(document).ready( function(){
+    //Set the height to the inner height
+    $("body").height(window.innerHeight);
+
     // Listen to all the buttons for the press event
     $(".button-container > div").not(".button-all").click(function() {
         $(this).toggleClass("pressed");
