@@ -1,6 +1,6 @@
 $(document).ready( function(){
     //Set the height to the inner height
-    on$(".center-col").height(window.innerHeight * 0.98);
+    $(".center-col").height(window.innerHeight * 0.98);
 
     // Listen to all the buttons for the press event
     $(".button-container > div").not(".button-all").click(function() {
