@@ -7,15 +7,14 @@
    --app-height: 100%;
 }
 
-html,
+/* html,
 body {
     padding: 0;
     margin: 0;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    height: var(--app-height);
-} 
+}  */
 /* End hack */
 
 body{
@@ -29,7 +28,8 @@ body{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    height: 98%;
+    /* height: 98%; */
+    height: var(--app-height);
 }
 
 .header{
