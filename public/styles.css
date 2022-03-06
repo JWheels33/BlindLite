@@ -16,14 +16,59 @@ body{
     height: 98vh;
 }
 
-.header{
-    padding: 0 10%;
+/* Needs to be fixed, and slide 
+in and out of the page from the left*/
+.sidebar-menu
+{
+    position: fixed;
+    height: 100%;
+    width: 0%; 
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: #3b3b3b; 
+    /* Remove the horizontal scroll */
+    overflow-x: hidden; 
+    padding-top: 5vh;
+    transition: 1s;
 }
 
-.header img {
-    width: 100%;
-    vertical-align: middle;
+/* The navigation menu links */
+.sidebar-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.header{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40%;
+}
+
+.menu-btn{
+    max-height: 45px;
+    max-width: 45px;
+    float: right;
+}
+
 
 .button-set{
     flex: 1 ;

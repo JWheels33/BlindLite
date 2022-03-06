@@ -16,4 +16,10 @@ $(document).ready( function(){
             $(".button-container > div").addClass("pressed");
         }
     });
+
+    $(".menu-btn").click(function()
+    {
+        //open up the sidebar now
+        $(".sidebar-menu").width("250px");
+    });
 });
