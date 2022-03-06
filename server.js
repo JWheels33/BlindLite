@@ -2,7 +2,8 @@
 
 const express = require('express');
 const app = express();
-const port = 8080;
+//Commone open port for TCP is port 80
+const port = 80;
 
 app.use(express.static('public'));
 

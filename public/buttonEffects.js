@@ -22,4 +22,11 @@ $(document).ready( function(){
         //open up the sidebar now
         $(".sidebar-menu").width("250px");
     });
+
+    $(".close-btn").click(function()
+    {
+        //close up the sidebar now
+        $(".sidebar-menu").width("0");
+    });
+
 });
